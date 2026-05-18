@@ -41,6 +41,10 @@ background-color: #FFCCA6;
     opacity: 50%;
 }
 
+.footer-links-list-reference:active {
+    opacity: 0.7;
+}
+
 .footer-privacy {
     text-align: center;
     padding-top: 31px;

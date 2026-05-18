@@ -1,1 +1,92 @@
-<section id="register" class="register"></section>
+<section id="register" class="register">
+  <h2 class="register-header">Register</h2>
+
+  <div class="register-wrapper">
+    <form class="register-form">
+      <div>
+        <div>
+          <label class="register-form-label" for="user-name">Name*</label>
+
+          <input
+            class="register-form-input"
+            type="text"
+            id="user-name"
+            placeholder="Emma"
+            required
+            pattern="^[a-zA-Z\s\.]{5,64}$"
+            title="Ім'я повинно містити лише латинські літери, пробіли або крапки, та бути довжиною від 5 до 64 символів"
+          />
+          <p class="input-error-message">Error text</p>
+        </div>
+        <div>
+          <label class="register-form-label" for="user-email">Email*</label>
+
+          <input
+            class="register-form-input"
+            type="email"
+            id="user-email"
+            required
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            title="Будь ласка, введіть коректну адресу електронної пошти (наприклад, example@mail.com)"
+            placeholder="hello@wildsketch.com"
+          />
+          <p class="input-error-message">Error text</p>
+        </div>
+        <div>
+          <label class="register-form-label" for="user-description"
+            >Describe your skills</label
+          >
+          <textarea
+            class="register-textarea"
+            id="user-description"
+            maxlength="500"
+            placeholder="Type your skills..."
+          ></textarea>
+        </div>
+        <button class="register-button" type="submit">Register</button>
+      </div>
+    </form>
+    <div class="register-picture">
+      <picture>
+        <!-- desktop -->
+        <source
+          media="(min-width:1440px)"
+          srcset="
+            /img/feedback/feedback-desk.jpg    1x,
+            /img/feedback/feedback-desk@2x.jpg 2x
+          "
+          width="640"
+          height="734"
+        />
+
+        <!-- tablet -->
+        <source
+          media="(min-width:768px)"
+          srcset="
+            /img/feedback/feedback-tablet.jpg    1x,
+            /img/feedback/feedback-tablet@2x.jpg 2x
+          "
+          width="704"
+          height="362"
+        />
+
+        <!-- mobile -->
+        <source
+          media="(max-width:767px)"
+          srcset="
+            /img/feedback/feedback-mobile.jpg    1x,
+            /img/feedback/feedback-mobile@2x.jpg 2x
+          "
+        />
+        <img
+          loading="lazy"
+          class="subscribe-picture kenburns-top"
+          src="/img/feedback/feedback-mobile.jpg"
+          alt="outdoor-painting"
+          width="640"
+          height="734"
+        />
+      </picture>
+    </div>
+  </div>
+</section>

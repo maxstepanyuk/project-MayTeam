@@ -1,0 +1,83 @@
+.benefits {
+  padding: 40px 0;
+  @media screen and (min-width: 1440px) {
+    padding: 112px 0;
+  }
+}
+.benefits-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  @media screen and (min-width: 1440px) {
+    justify-content: center;
+    margin: 0;
+  }
+}
+.benefist-wrraper {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 80px;
+  }
+}
+.benefits-title {
+  text-align: start;
+  font-family: 'Caveat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 32px;
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
+}
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.benefits-wrraper-list {
+  display: flex;
+  gap: 24px;
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    max-width: 612px;
+  }
+}
+.benefist-list-wraper {
+  padding: 8px 0;
+}
+
+.benefits-wrraper-text {
+  width: 100%;
+}
+.benefits-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.benefits-heading {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin-bottom: 16px;
+}
+.benefits-text {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0c0708;
+}
+
+.benefist-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 1440px) {
+    flex-shrink: 0;
+  }
+}
