@@ -7,7 +7,7 @@
 .benefits-section {
   display: flex;
   flex-direction: column;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   @media screen and (min-width: 1440px) {
     justify-content: center;
     margin: 0;
@@ -27,7 +27,7 @@
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: -0.01em;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   @media screen and (min-width: 768px) {
     width: 450px;
   }
@@ -43,9 +43,6 @@
   @media screen and (min-width: 768px) and (max-width: 1439px) {
     max-width: 612px;
   }
-}
-.benefist-list-wraper {
-  padding: 8px 0;
 }
 
 .benefits-wrraper-text {
