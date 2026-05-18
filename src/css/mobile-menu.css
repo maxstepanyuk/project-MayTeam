@@ -17,7 +17,7 @@
     }
 
     .mobile-menu.is-open .mobile-menu-close-button {
-        position: absolute;
+        position: fixed;
         top: -56px;
         right: 12px;
 

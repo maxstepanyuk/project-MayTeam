@@ -22,7 +22,7 @@
 
 .header-navigation{
     display: flex;
-    margin-right: 32px;
+    gap: 32px;
 }
 
 .mobile-menu{
